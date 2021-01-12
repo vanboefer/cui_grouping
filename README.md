@@ -30,4 +30,4 @@ The [`get_cuis.py`](code/get_cuis.py) script processes the pickled dataframes cr
 ## Step 4: Grouping
 The script [`groupings.py`](code/groupings.py) groups the records based on their disease and drug CUI's using a similarity measure and a threshold (defined by the available parameters; see the script).
 
-The results of grouping the sample data using cosine similarity and a distance threshold of 0.4 (i.e. similarity threshold 0.6) can be found in [data/groupings](data/groupings/); these results are examined in the notebook [`results_explore.ipynb`](code/results_explore.ipynb).
+The results of grouping the sample data using cosine similarity and a distance threshold of 0.4 (i.e. similarity threshold 0.6) can be found in [data/groupings](data/groupings/); these results are examined in the notebook [`results_explore.ipynb`](notebook/results_explore.ipynb).
