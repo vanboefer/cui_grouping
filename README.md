@@ -12,6 +12,8 @@ The three data sources from which records are grouped are:
 
 A sample of 100 CTgov records, 100 PubMed records and 72 EMA records can be found in the [data](data/) folder.
 
+For details on the bigger experiment and its results, see [here](https://github.com/vanboefer/link_ct_results).
+
 ## Step 1: BERN annotation
 [BERN](https://github.com/dmis-lab/bern) is a state-of-the-art biomedical named entity recognition tool, which detects entities of types *disease*, *drug*, *gene*, *species* and *mutation*. Please refer to the paper by [Kim et al. (2019)](https://ieeexplore.ieee.org/document/8730332) for further information.
 
